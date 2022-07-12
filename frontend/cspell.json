@@ -4,11 +4,17 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [
+        "Anakin",
         "dsmeta",
-        "Notificar"
+        "Notificar",
+        "Vendas",
+        "Vendedor",
+        "Visitas"
     ],
     "ignoreWords": [
+        "Desenvolvido",
         "componente",
+        "dudu",
         "mundo"
     ],
     "import": []
