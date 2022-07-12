@@ -3,8 +3,12 @@
     "ignorePaths": [],
     "dictionaryDefinitions": [],
     "dictionaries": [],
-    "words": [],
+    "words": [
+        "dsmeta",
+        "Notificar"
+    ],
     "ignoreWords": [
+        "componente",
         "mundo"
     ],
     "import": []
