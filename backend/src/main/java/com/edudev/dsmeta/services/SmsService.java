@@ -37,13 +37,17 @@ public class SmsService {
 		String msg = "O vendedor " + sale.getSellerName() + " foi destaque em " + date +
 				" com um total de R$ " + String.format("%.2f", sale.getAmount()) + " em vendas.";
 		
+		
+		String msg1 = "\n\n"
+				+ "Ai se eu te pego Susu...";
+		
 		Twilio.init(twilioSid, twilioKey);
 
 		PhoneNumber to = new PhoneNumber(twilioPhoneTo);
 		PhoneNumber from = new PhoneNumber(twilioPhoneFrom);
 
-		Message message = Message.creator(to, from, msg).create();
+		Message message = Message.creator(to, from, msg1).create();
 
-		System.out.println(message.getSid());
+		System.out.println("ENVIOU "+message.getSid());
 	}
 }
